@@ -1,0 +1,21 @@
+.wrapper {
+    display: grid;
+    place-content: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.field {
+    width: 245px;
+    height: 20px;
+    max-width: 100%;
+}
+
+.label p {
+    margin: 0;
+    padding-top: 15px;
+}

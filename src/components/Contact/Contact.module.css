@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 0 auto;
+    gap: 15px;
+    padding-right: 20px;
+    width: 250px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    margin: 0;
+}
+
+.number {
+    margin: 0;
+}
+
+.button {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.wrapperList {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.iconWrap {
+    display: flex;
+    gap: 10px;
+}
+
+.name {
+    padding-bottom: 5px;
+}
