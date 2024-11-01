@@ -4,7 +4,7 @@ import s from '../Contact/Contact.module.css';
 import { selectFilteredContacts } from '../../redux/contactsSlice';
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contactOps";
+import { fetchContacts } from "../../redux/contactsOps";
 
 function ContactList() {
 
